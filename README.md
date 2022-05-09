@@ -7,8 +7,10 @@ This project contains only a LoggingAspect class that can generate and write log
 ### Option 2
 - Convert the commonLogger project into a JAR and add it as a dependency to your Java project
 
-***** Properties to be added to application.properties file *****
+-----------------------------------------------------------------------------------------
+____Properties to be added to application.properties file____
 - Add the following property do the logs do contain the application name
   - ****spring.application.name=your_app_name****
 - If logging to a file is needed add the following property, else the default is false
   - ****logging.aspectLogging.logFileEnabled=true****
+-----------------------------------------------------------------------------------------
